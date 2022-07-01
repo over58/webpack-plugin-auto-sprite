@@ -1,0 +1,35 @@
+.icon {
+    display: inline-block;
+}
+
+.inline-flex{
+  display: inline-flex;
+}
+.border-1{
+  border: solid 1px #666;
+}
+.p-10{
+  padding: 10px;
+}
+.m-10{
+  margin: 10px;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.bg-black{
+  background: #000;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+.text-white{
+  color: #fff;
+}

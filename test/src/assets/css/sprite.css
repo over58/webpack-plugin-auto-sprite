@@ -1,0 +1,66 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-baomihua {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 200px;
+  height: 200px;
+}
+.icon-kafei {
+  background-image: url(../img/sprite.png);
+  background-position: -200px 0px;
+  width: 200px;
+  height: 200px;
+}
+.icon-makalong {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -200px;
+  width: 200px;
+  height: 200px;
+}
+.icon-nailao {
+  background-image: url(../img/sprite.png);
+  background-position: -200px -200px;
+  width: 200px;
+  height: 200px;
+}
+.icon-regou {
+  background-image: url(../img/sprite.png);
+  background-position: -400px 0px;
+  width: 200px;
+  height: 200px;
+}
+.icon-shutiao {
+  background-image: url(../img/sprite.png);
+  background-position: -400px -200px;
+  width: 200px;
+  height: 200px;
+}
+.icon-xuegao {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -400px;
+  width: 200px;
+  height: 200px;
+}
+.icon-zhenzhunaicha {
+  background-image: url(../img/sprite.png);
+  background-position: -200px -400px;
+  width: 200px;
+  height: 200px;
+}

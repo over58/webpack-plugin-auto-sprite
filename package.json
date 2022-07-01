@@ -1,0 +1,35 @@
+{
+  "name": "webpack-plugin-auto-sprite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --config test/webpack.config.js",
+    "dev-watch": "webpack-cli --config test/webpack.config.js --watch --progress",
+    "build": "webpack build --config test/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "asset-loader": "^0.1.7",
+    "chokidar": "^3.5.3",
+    "glob": "^8.0.3",
+    "lodash": "^4.17.21",
+    "mkdirp": "^1.0.4",
+    "spritesheet-templates": "^10.5.2",
+    "spritesmith": "^3.4.0"
+  }
+}
